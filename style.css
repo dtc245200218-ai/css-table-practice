@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f6fa;
+  color: #333;
+  margin: 0;
+  padding: 35px;
+}
+
+h1 {
+  text-align: center;
+  color: #245b85;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+/* Đường viền cho bảng và từng ô */
+table,
+th,
+td {
+  border: 1px solid #b8c7d6;
+}
+
+/* Kiểu tiêu đề */
+th {
+  height: 50px;
+  background-color: #245b85;
+  color: white;
+  text-align: left;
+  vertical-align: middle;
+  padding: 12px 16px;
+}
+
+/* Kiểu ô dữ liệu */
+td {
+  height: 45px;
+  padding: 12px 16px;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffffff;
+}
+
+/* Tô màu xen kẽ các hàng */
+tr:nth-child(even) td {
+  background-color: #eaf2f8;
+}
+
+/* Hiệu ứng khi di chuột */
+tr:hover td {
+  background-color: #d5e8f7;
+}
